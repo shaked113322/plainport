@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "dev.workers.exportitnow.plainport/plainport",
+  "title": "Plainport",
+  "description": "Deterministic remote MCP and REST utilities for public-web intake: fetch readable Markdown, inspect URLs, extract metadata and links, parse feeds and sitemaps, inspect robots rules, convert HTML, diff text, and validate JSON Schema. Stateless Streamable HTTP; no login or model calls.",
+  "version": "0.1.1",
+  "websiteUrl": "https://plainport.exportitnow.workers.dev/",
+  "repository": {
+    "url": "https://github.com/shaked113322/plainport",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://plainport.exportitnow.workers.dev/mcp"
+    }
+  ]
+}
